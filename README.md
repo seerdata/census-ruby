@@ -1,15 +1,15 @@
 # Census API
 
 This code has been heavily influenced by and is basically a fork of:
+
 [https://github.com/tyrauber/census_api]
 (https://github.com/tyrauber/census_api)
 
 ## Obtaining an API key
 
-To be able to use this gem, you'll need a Census Bureau API key. To request an API key, visit
-[http://www.census.gov/developers/tos/key_request.html][key] and follow the instructions.
-
-[key]: (http://www.census.gov/developers/tos/key_request.html)
+To use this code you'll need a Census Bureau API key. Get the key
+[here]
+(http://api.census.gov/data/key_signup.html)
 
 ## Usage / Retrieving Census Data
 
