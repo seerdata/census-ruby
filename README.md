@@ -1,7 +1,8 @@
 # Census API
 
-This gem provides a Ruby wrapper around the Census Bureau API.
-
+This code has been heavily influenced by
+(https://github.com/tyrauber/census_api)
+[https://github.com/tyrauber/census_api]
 
 ## Obtaining an API key
 
@@ -9,15 +10,6 @@ To be able to use this gem, you'll need a Census Bureau API key. To request an A
 [http://www.census.gov/developers/tos/key_request.html][key] and follow the instructions.
 
 [key]: (http://www.census.gov/developers/tos/key_request.html)
-
-
-## Installing the gem
-
-To use this gem, install it with <tt>gem install census_api</tt> or add it to your Gemfile:
-
-`gem 'census_api'`
-
-And install it with <tt>bundle install</tt>
 
 ## Usage / Retrieving Census Data
 
@@ -32,7 +24,7 @@ $ export $CENSUS_API_KEY='your-api-key'
 ### Register a New Client
 
 ```ruby
-@client = CensusApi::Client.new(API_KEY) 
+@client = CensusApi::Client.new(API_KEY)
 @client = CensusApi::Client.new(ENV['CENSUS_API_KEY']) # from the environment variable
 @client = CensusApi::Client.new(API_KEY, dataset: 'SF1') # with a dataset
 @client = CensusApi::Client.new(API_KEY, {vintage: 2012, dataset: 'SF1'}) # specific vintage (year) data; defaults to 2010
