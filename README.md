@@ -1,8 +1,8 @@
 # Census API
 
 This code has been heavily influenced by
-(https://github.com/tyrauber/census_api)
 [https://github.com/tyrauber/census_api]
+(https://github.com/tyrauber/census_api)
 
 ## Obtaining an API key
 
