@@ -8,7 +8,7 @@ This code has been heavily influenced by and is basically a fork of:
 ## Obtaining an API key
 
 To use this code you'll need a Census Bureau API key. Get the key
-[here]
+[here].
 (http://api.census.gov/data/key_signup.html)
 
 ## Usage / Retrieving Census Data
