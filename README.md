@@ -1,6 +1,6 @@
 # Census API
 
-This code has been heavily influenced by
+This code has been heavily influenced by and is basically a fork of:
 [https://github.com/tyrauber/census_api]
 (https://github.com/tyrauber/census_api)
 
