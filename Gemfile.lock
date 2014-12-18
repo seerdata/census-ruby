@@ -1,0 +1,18 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    hpricot (0.8.6)
+    mime-types (2.4.3)
+    netrc (0.10.2)
+    redis (3.2.0)
+    rest-client (1.7.2)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hpricot
+  redis
+  rest-client
