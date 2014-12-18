@@ -18,6 +18,11 @@ require '../lib/request'
 # Counties Oregon
 #data = @client.where({ fields: 'P0010001', level: 'COUNTY', within: 'STATE:41' })
 # Bernalillo County
-data = @client.where({ fields: 'P0010001', level: 'COUNTY:001', within: 'STATE:35' })
+#data = @client.where({ fields: 'P0010001', level: 'COUNTY:001', within: 'STATE:35' })
+
+# Places in New Mexico
+#data = @client.where({ fields: 'P0010001', level: 'PLACE', within: 'STATE:35' })
+# Silver City in New Mexico
+data = @client.where({ fields: 'P0010001', level: 'PLACE:73260', within: 'STATE:35' })
 
 puts data
