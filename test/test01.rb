@@ -1,3 +1,7 @@
+#
+# test01.rb is all about just using dataset SF1
+#
+
 require '../lib/client'
 require '../lib/request'
 
